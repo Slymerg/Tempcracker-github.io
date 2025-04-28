@@ -1,6 +1,6 @@
 const claveApi = 'b57c3aef33924c53aca222837252404'; 
 const idioma = 'es' ;
-const ciudad = 'Huancayo';
+const ciudad = '';
 
 const apiClimaActual = `https://api.weatherapi.com/v1/current.json?q=${ciudad}&lang=${idioma}&key=${claveApi}`;
 
