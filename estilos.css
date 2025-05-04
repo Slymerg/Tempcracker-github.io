@@ -7,12 +7,13 @@
 }
 
 body {
-    background: #222;
+    background: url(https://i0.wp.com/enlacelatinonc.org/wp-content/uploads/2022/04/El-Clima-hoy.jpg?resize=1024%2C577&quality=89&ssl=1) no-repeat center center fixed;
+    background-size: cover;
 }
 .contenedor {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(125deg, #00feba, #5b548a);
+    background: linear-gradient(10deg, #5b548a, #35c31b);
     color:  #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -57,11 +58,17 @@ button:hover {
     width: 170px;
     margin-top: 30px;
 }
-.clima-texto {
-    font-size: 15px;
-    margin-top: 25px;
-    margin-bottom: -25px;
-    font-size: italic;
+.clima-texto, .ciudad, .temp {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Gevena, Verdana, sans-serif;
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.7),
+        0 0 10px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(0, 69, 255, 1),
+        0 0 30px rgba(0, 69, 255, 1),
+        0 0 40px rgba(0, 69, 255, 1),
+        0 0 50px rgba(0, 69, 255, 1),
+        0 0 75px rgba(0, 69, 255, 1);
 }
 h1 {
     font-size: 80px;
@@ -87,4 +94,11 @@ h1 {
 .humedad, .viento {
     font-size: 28px;
     margin-top: -6px;
+}
+.clima-info {
+    background: rgba(0, 0, 0, 0.6);  
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8); 
+    text-align: center;
 }
